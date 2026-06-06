@@ -1,7 +1,7 @@
 [README.md](https://github.com/user-attachments/files/28658645/README.md)
 # CDPDOSSegRed-P1# Ataque DoS mediante el protocolo CDP
 
-> **Estudiante:** Emmanuel Báez Ramírez
+> **Nombre:** Emmanuel Báez Ramírez
 > **Matrícula:** 2022-0375
 > **Video ilustrativo:** https://youtu.be/iwnL7N4eYz4
 > **Playlist (Práctica 1):** https://www.youtube.com/playlist?list=PLp7pfUFf22-zekAmQ7hncCvmJHZe7lLHk
@@ -62,34 +62,33 @@ Mapa de puertos en SW1:
 - Gi0/2 -> Kali (atacante)
 
 # Capturas de pantalla.
-- Topología (nombre y matrícula)
+- Topología (Emmanuel Baez 20220375)
 
-![Topologia](
 
-<img width="516" height="305" alt="image" src="https://github.com/user-attachments/assets/aa28611a-8d5e-4605-ad6a-06bc7fcaa4cb" />)
+
+<img width="516" height="305" alt="image" src="https://github.com/user-attachments/assets/aa28611a-8d5e-4605-ad6a-06bc7fcaa4cb" />
 
 
 - Ejecución del script en Kali
 
-![Ejecucion](
 
 <img width="770" height="407" alt="cdp_ejecucion" src="https://github.com/user-attachments/assets/371e09ec-a564-4395-a1e0-e71b0de3c7cd" />
-)
+
 
 - Tabla CDP del switch saturada (cientos de vecinos falsos SRV-VULN)
 
-![Tabla CDP](
 
-<img width="683" height="327" alt="cdp_neighbors_358" src="https://github.com/user-attachments/assets/25051e75-bd07-4bbe-8dc3-5e95f6aa511e" />)
 
-![Wireshark CDP](
+<img width="683" height="327" alt="cdp_neighbors_358" src="https://github.com/user-attachments/assets/25051e75-bd07-4bbe-8dc3-5e95f6aa511e" />
+
+
 <img width="737" height="408" alt="cdp_wireshark" src="https://github.com/user-attachments/assets/33284be3-67f0-4e7c-9abb-6e0ec3c83cc6" />
 
-)
+
 
 - Impacto en la CPU del switch
 
-![CPU y tabla CDP](<img width="667" height="161" alt="cdp_cpu_861" src="https://github.com/user-attachments/assets/1eb8a04e-60da-4d38-88b5-8ad19cfcbe04" />
+<img width="667" height="161" alt="cdp_cpu_861" src="https://github.com/user-attachments/assets/1eb8a04e-60da-4d38-88b5-8ad19cfcbe04" />
 
 # Documentación de contra-medidas.
 La mitigación es deshabilitar CDP donde no se necesita. CDP no debe estar activo en puertos de acceso hacia usuarios.
