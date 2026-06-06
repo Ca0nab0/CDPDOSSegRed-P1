@@ -64,19 +64,28 @@ Mapa de puertos en SW1:
 # Capturas de pantalla.
 - Topología (nombre y matrícula)
 
-![Topologia](<img width="516" height="305" alt="image" src="https://github.com/user-attachments/assets/aa28611a-8d5e-4605-ad6a-06bc7fcaa4cb" />)
+![Topologia](
+
+<img width="516" height="305" alt="image" src="https://github.com/user-attachments/assets/aa28611a-8d5e-4605-ad6a-06bc7fcaa4cb" />)
 
 
 - Ejecución del script en Kali
 
-![Ejecucion](<img width="770" height="407" alt="cdp_ejecucion" src="https://github.com/user-attachments/assets/371e09ec-a564-4395-a1e0-e71b0de3c7cd" />
+![Ejecucion](
+
+<img width="770" height="407" alt="cdp_ejecucion" src="https://github.com/user-attachments/assets/371e09ec-a564-4395-a1e0-e71b0de3c7cd" />
 )
 
 - Tabla CDP del switch saturada (cientos de vecinos falsos SRV-VULN)
 
-![Tabla CDP](<img width="683" height="327" alt="cdp_neighbors_358" src="https://github.com/user-attachments/assets/25051e75-bd07-4bbe-8dc3-5e95f6aa511e" />)
+![Tabla CDP](
 
-![Wireshark CDP](<img width="737" height="408" alt="cdp_wireshark" src="https://github.com/user-attachments/assets/33284be3-67f0-4e7c-9abb-6e0ec3c83cc6" />)
+<img width="683" height="327" alt="cdp_neighbors_358" src="https://github.com/user-attachments/assets/25051e75-bd07-4bbe-8dc3-5e95f6aa511e" />)
+
+![Wireshark CDP](
+<img width="737" height="408" alt="cdp_wireshark" src="https://github.com/user-attachments/assets/33284be3-67f0-4e7c-9abb-6e0ec3c83cc6" />
+
+)
 
 - Impacto en la CPU del switch
 
